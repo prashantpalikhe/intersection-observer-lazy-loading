@@ -11,9 +11,11 @@ class LazyLoader {
         if (!this.observer) {
             this.observer = new IntersectionObserver(changes => {
                 changes.forEach(change => {
-                    change.target.src = change.target.dataset.src;
+                    if (change.isIntersecting) {
+                        change.target.src = change.target.dataset.src;
 
-                    this.observer.unobserve(change.target);
+                        this.observer.unobserve(change.target);
+                    }
                 });
             });
         }
