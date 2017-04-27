@@ -8,4 +8,4 @@ Read more on [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Intersection
  
 `lazyloader.js` is a ES6 class that takes in a selector and lazy loads all the images matching that selector.
 
-[DEMO](https://cdn.rawgit.com/prashantpalikhe/intersection-observer-lazy-loading/c7becb02/index.html)
+[DEMO](https://cdn.rawgit.com/prashantpalikhe/intersection-observer-lazy-loading/4537f481/index.html)
